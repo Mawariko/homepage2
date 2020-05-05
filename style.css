@@ -1,0 +1,57 @@
+/* link customization */
+.contacts li a.insta:hover {
+  color: rgb(161, 90, 90);
+}
+
+.contacts li a.twitter:hover {
+  color: rgb(53, 127, 129);
+}
+
+.donkey-link {
+  cursor: pointer;
+}
+
+/* overlay + video */
+#donkey {
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#donkey-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+/* tweeking main */
+main {
+  margin-bottom: 50vh;
+}
+
+
+/* media */
+@media screen and (min-width: 750px) {
+  .avatar {
+    height: 150px;
+  }
+
+  #donkey {
+    width: 50%;
+    height: 70%;
+  }
+}

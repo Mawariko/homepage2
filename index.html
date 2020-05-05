@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <title>Résumé</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <main>
     <article>
-      <div class="page" style="border-color: midnightblue;">
+      <div class="page" style="border-color: #37546d;">
         <!-- Content -->
         <div class="stackable grid">
           <div class="row">
@@ -18,7 +20,7 @@
               <!-- Avatar -->
               <div class="avatar-wrapper">
                 <object class="avatar" data="arny.svg" role="img" aria-label="My profile picture"></object>
-            </div>
+              </div>
               <!-- Avatar -->
             </div>
             <div class="thirteen wide column">
@@ -26,27 +28,27 @@
                 <div class="sixteen wide column">
                   <!-- Name, job, contacts -->
                   <h1 class="name">Arnold Schwarzenegger</h1>
-                        <div class="job">Bodybuilder, actor, entrepreneur</div>
-                        <ul class="contacts">
-                          <li>
-                            <a href="https://www.facebook.com/arnold" rel="author" class="facebook">
-                                <i class="fa fa-facebook-square"></i>
-                              <span>@Arnold</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.instagram.com/schwarzenegger" rel="author" class="insta">
-                                <i class="fa fa-instagram"></i>
-                              <span>schwarzenegger</span>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/schwarzenegger" rel="author" class="twitter">
-                                <i class="fa fa-twitter-square"></i>
-                              <span>@Schwarzenegger</span>
-                            </a>
-                          </li>
-                        </ul>
+                  <div class="job">Bodybuilder, actor, entrepreneur</div>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://www.facebook.com/arnold" rel="author" class="facebook">
+                        <i class="fa fa-facebook-square"></i>
+                        <span>@Arnold</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/schwarzenegger" rel="author" class="insta">
+                        <i class="fa fa-instagram"></i>
+                        <span>schwarzenegger</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/schwarzenegger" rel="author" class="twitter">
+                        <i class="fa fa-twitter-square"></i>
+                        <span>@Schwarzenegger</span>
+                      </a>
+                    </li>
+                  </ul>
                   <!-- Name, job, contacts -->
                 </div>
                 <div class="sixteen wide mobile only column">
@@ -55,8 +57,10 @@
                 <div class="sixteen wide column">
                   <!-- Intro -->
                   <h2>Résumé</h2>
-                  <p>&mdash; Hi people! I am confident enough that you know me, but for the sake of formalities… My name is Arnold and I am an actor, bodybuilder, Terminator, filmmaker, hero, entrepreneur and ex-politician. 
-                  I love achievements, growth and empowerment. That is exactly what I am willing to propagate. 
+                  <p>&mdash; Hi people! I am confident enough that you know me, but for the sake of formalities… My name
+                    is Arnold and I am an actor, bodybuilder, Terminator, filmmaker, hero, entrepreneur and
+                    ex-politician.
+                    I love achievements, growth and empowerment. That is exactly what I am willing to propagate.
                   </p>
                   <!-- Intro -->
                 </div>
@@ -71,23 +75,161 @@
           <div class="row">
             <div class="ten wide column">
               <!-- Experience -->
+              <h3>Experience</h3>
+              <h6>Recent</h6>
+              <!-- Timeline (recent events) -->
+              <ul class="timeline">
+                <li class="highlighted">
+                  <p><em>2019</em></p>
+                  <p><strong>Enjoying my life</strong> and <strong><a target="_blank" rel="noopener noreferrer"
+                        href="https://www.youtube.com/watch?v=rXodSqMpuUQ" rel="external">playing my part to imrove the
+                        environment</a></strong> </p>
+                </li>
+              </ul>
+              <h6>Back then</h6>
+              <!-- Timeline (older events) -->
+              <ul class="timeline">
+                <li>
+                  <p><em>2016</em></p>
+                  <p><strong>Refused to vote for the Republican candidate</strong></p>
+                  <ul>
+                    <li class="details">
+                      <input type="checkbox" id="other">
+                      <label for="other" class="summary">why is this even important?</label>
+                      <div>
+                        <ul>
+                          <li>I have been a Republican for all my conscious life</li>
+                          <li>This wet noodle Trump represented Republicans and it was a shame!</li>
+                          <li>I could have and should have been at his place! I could have been the President!</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p><em>3<sup>rd</sup> January 2007 &ndash; 3<sup>rd</sup> January 2011</em></p>
+                  <p><strong>Served my second term as Governor of California</strong></p>
+                </li>
+                <li>
+                  <p><em>17<sup>th</sup> November 2003 &ndash; 3<sup>rd</sup> January 2007</em></p>
+                  <p><strong>Served my first term as Governor of California</strong></p>
+                </li>
+                <li>
+                  <p><em>17<sup>th</sup> November 2003 &ndash; 3<sup>rd</sup> January 2007</em></p>
+                  <p><strong>Served my first term as Governor of California</strong></p>
+                </li>
+                <li>
+                  <p><em>1993</em></p>
+                  <p><strong>Was named "International Star of the Decade"</strong> by the National Association of
+                    Theatre Owners</p>
+                </li>
+                <li>
+                  <p><em>1985</em></p>
+                  <p><strong>Got into politics publicly</strong>, accompanied then-Vice President George H. W. Bush at a
+                    campaign rally</p>
+                </li>
+                <li>
+                  <p><em>1984</em></p>
+                  <p><strong>Became The Terminator</strong></p>
+                </li>
+                <li>
+                  <p><em>1983</em></p>
+                  <p><strong>Got my United States citizenship</strong></p>
+                </li>
+                <li>
+                  <p><em>1980</em></p>
+                  <p><strong>Graduated</strong> and received his bachelor's degree in business administration and
+                    marketing</p>
+                </li>
+                <li>
+                  <p><em>1976</em></p>
+                  <p><strong>Won the Golden Globe Award for New Star of the Year – Actor </strong>for my role in Stay
+                    Hungry</p>
+                </li>
+                <li>
+                  <p><em>1970</em></p>
+                  <p><strong>Captured my first Mr. Olympia title in New York</strong></p>
+                </li>
+                <li>
+                  <p><em>1969</em></p>
+                  <p><strong>Got my first role in a movie</strong> (Hercules in New York)</p>
+                </li>
+                <li>
+                  <p><em>October 1968</em></p>
+                  <p><strong>Moved to the USA, </strong>which had been my dream and ambition for a long time. </p>
+                </li>
+                <li>
+                  <p><em>1967</em></p>
+                  <p><strong>Attended the NABBA Mr. Universe competition</strong> in London, coming in second in that
+                    competition. Was invited to stay in London and keep training with one of the judges (Bennett) </p>
+                </li>
+                <li>
+                  <p><em>1966</em></p>
+                  <p><strong>Became the youngest ever Mr. Universe</strong> at the age of 20. Then left London and flew
+                    back to Munich to attended a business school. </p>
+                </li>
+                <li>
+                  <p><em>1965</em></p>
+                  <p><strong>Served in the Austrian Army</strong> </p>
+                </li>
+                <li>
+                  <p><em>1960</em></p>
+                  <p><strong>Began weight training</strong></p>
+                </li>
+                <li>
+                  <p><em>30<sup>th</sup> July 1947</em></p>
+                  <p><strong>Born in Austria</strong></p>
+                </li>
+              </ul>
+              <!-- Experience -->
             </div>
             <div class="six wide column">
               <!-- Languages -->
+              <section>
+                <h3>Languages</h3>
+                <p class="tags small"> <span class="language" lang="en">🇺🇸 ENGLISH</span> <span class="language"
+                    lang="de">🇩🇪 GERMAN</span></p>
+              </section>
               <!-- Skills -->
+              <section>
+                <h3>Skills</h3>
+                <p class="tags small"><span class="nowrap">PUMPING IRON</span> <span class="nowrap">TERMINATING
+                    MALICIOUS MACHINGS</span> <span class="nowrap">SAVING HUMANITY</span> ACTING <span
+                    class="nowrap">GETTING CHRISTMAS PRESENTS</span> <span class="nowrap">KILLING PREDATORS</span>
+                  <span>GOVERNING</span></p>
+              </section>
               <!-- Character -->
+              <section>
+                <h3>Character</h3>
+                <p class="tags small">RESILIENT STRONG DETERMINED DEVOTED RELEVANT ARTISTIC STRONG EMPATHETIC
+                  STORYTELLER HUMOROUS CHALLENGING BRAVE</p>
+              </section>
               <!-- Likes -->
+              <section>
+                <h3>Likes&#x1f603;</h3>
+                <p class="tags small">I LIKE MY ASS! ...sorry for my old English..But you will love it too!<a
+                    class="donkey-link"><strong> Click Click!</strong></a></p>
+              </section>
               <!-- Dislikes -->
-              <!-- Wants -->
-              <!-- Education -->
-              <!-- Articles -->
+              <section>
+                <h3>Dislikes&#x1f61e;</h3>
+                <p class="tags small">TRUMP</p>
+              </section>
             </div>
           </div>
         </div>
         <!-- Content -->
       </div>
+      <div id="donkey-overlay" class="hide-display">
+        <iframe id="donkey" width="800" height="700" src="https://www.youtube.com/embed/yvHddCNCfzw?start=0">
+        </iframe>
+      </div>
     </article>
   </main>
+  <footer>
+    <h3>I'll be back</h3>
+  </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
