@@ -38,6 +38,12 @@
 }
 
 
+/* tweeking main */
+main {
+  margin-bottom: 50vh;
+}
+
+
 /* media */
 @media screen and (min-width: 750px) {
   .avatar {
